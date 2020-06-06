@@ -4045,27 +4045,7 @@
 			height: 50vh !important;
 		}
 
-		.banner:after {
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
-			pointer-events: none;
-			-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			-webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			background: #000000;
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 0;
-			position: absolute;
-			top: 0;
-			visibility: hidden;
-			width: 100%;
-			z-index: 2;
-		}
+		
 
 		.banner .indicators {
 			bottom: 1.5em;
@@ -4109,31 +4089,25 @@
 				}
 
 		.banner > article {
-			-moz-transition: opacity 1.5s ease, visibility 1.5s;
+			/*-moz-transition: opacity 1.5s ease, visibility 1.5s;
 			-webkit-transition: opacity 1.5s ease, visibility 1.5s;
 			-ms-transition: opacity 1.5s ease, visibility 1.5s;
-			transition: opacity 1.5s ease, visibility 1.5s;
+			transition: opacity 1.5s ease, visibility 1.5s;*/
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
+			background-image: url(../../images/itemlist_example.png);
 			height: 100%;
 			left: 0;
-			opacity: 0;
+			/*opacity: 0;*/
 			position: absolute;
 			text-align: center;
 			top: 0;
-			visibility: hidden;
+			/*visibility: hidden;*/
 			width: 100%;
 			z-index: 0;
 		}
-
-			.banner > article:before {
-				content: '';
-				display: inline-block;
-				height: 100%;
-				vertical-align: middle;
-			}
 
 			.banner > article:after {
 				content: '';
@@ -4197,7 +4171,7 @@
 			}
 
 			.banner > article img {
-				display: none;
+				
 			}
 
 			.banner > article.visible {
