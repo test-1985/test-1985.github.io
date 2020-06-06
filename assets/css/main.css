@@ -4198,8 +4198,8 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 75vh;
-				height: 75vh !important;
+				min-height: 36rem;
+				height: 36rem !important;
 			}
 
 		}
@@ -4208,8 +4208,8 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 50vh;
-				height: 50vh !important;
+				min-height: 24rem;
+				height: 24rem !important;
 			}
 
 			.banner > article {
