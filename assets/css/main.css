@@ -2674,11 +2674,39 @@
 		position: relative;
 		margin: 0;
 	}
-
-		.wrapper > .inner {
-			margin: 0 auto;
-			width: 80rem;
+		
+		#one{
+			padding: 4rem 0 4rem 0;
 		}
+
+		#three{
+			background-color: #e7e7e7;
+		}
+
+		#introduction.wrapper{
+			/* Don't remove this padding, for some reason a white bar appears between elements */
+			padding-bottom: 1px;
+		}
+
+				#intro-last-p{
+					padding-bottom: 2rem;
+				}
+
+				.inner.intro p{
+					color: #5f5959;
+				}
+
+			.inner.intro h2{
+				text-align: center;
+				margin-bottom: 3rem;
+				color: black;
+			}
+
+			.wrapper > .inner {
+				margin: 0 auto;
+				width: 80rem;
+				font-size: 18px;
+			}
 
 		.wrapper.style1 {
 			background-color: #8a4680;
