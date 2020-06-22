@@ -1016,7 +1016,7 @@ header p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../../images/itemlist_example.png);
+    background-image: url(../../images/gallery/17.jpeg);
     height: 100%;
     left: 0;
     position: absolute;
@@ -1050,9 +1050,14 @@ header p {
 .banner > article h2 {
     font-size: 7rem;
     margin-bottom: 0;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.788);
     font-weight: 300;
 }
+
+.banner > article h3{
+    color: rgba(255, 255, 255, 0.884);
+}
+
 .banner > article h2:after {
     display: none;
 }
