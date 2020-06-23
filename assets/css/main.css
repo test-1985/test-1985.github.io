@@ -449,12 +449,15 @@ header p {
 }
 #three {
     background-color: #e7e7e7;
+    padding-top: 3rem;
 }
 #introduction.wrapper {
     padding-bottom: 1px;
 }
 #intro-last-p {
     padding-bottom: 2rem;
+    text-align: center;
+
 }
 .inner.intro p {
     color: #5f5959;
