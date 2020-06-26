@@ -456,14 +456,15 @@ header p {
 }
 #contact-intro {
     padding-bottom: 2rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
-
+    color: rgb(48, 46, 46);
 }
 
 #contact-intro p{
     color: rgb(48, 46, 46);
-    text-align: center; 
+    font-size: 1.6rem;
+    margin: 0;
 }
 
 #contact-intro img{
@@ -475,14 +476,11 @@ header p {
 #contact-intro a{
     text-decoration: none;
     color: inherit;
+
 }
 
 #contact-intro a:hover{
     color: dodgerblue;
-}
-
-@media screen and (max-width: 736px){
-    #contact-intro{font-size: 1.6rem;}
 }
 
 @media screen and (max-width: 600px){
@@ -490,19 +488,28 @@ header p {
 }
 
 @media screen and (max-width: 520px){
-    .intro p{font-size: 1.1rem;}
-    #contact-intro p{font-size: 1.25rem;}
+    #contact-intro p{font-size: 1.35rem;}
 }
 
 @media screen and (max-width: 480px){
     .inner.intro h2{font-size: 1.6rem;}
-    #contact-intro p{font-size: 1.15rem;}
+    #contact-intro p{font-size: 1.3rem;}
+}
+
+@media screen and (max-width: 400px){
+    .inner.intro h2{font-size: 1.4rem;}
+    #contact-intro p{font-size: 1.25rem;}
 }
 
 .inner.intro p {
     color: #5f5959;
-    font-size: 1.2rem; 
+    font-size: 1.3rem; 
 }
+
+@media screen and (max-width: 400px){
+.inner.intro p {font-size: 1.15rem; }
+}
+
 .inner.intro h2 {
     text-align: center;
     margin-bottom: 3rem;
