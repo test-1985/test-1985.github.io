@@ -1214,6 +1214,15 @@ header p {
     padding: 0;
     text-align: center;
 }
+
+footer a img{
+    position: relative;
+    top: 5px;
+}
+
+#footer .icons li{
+    color: rgb(139, 137, 137);
+}
 @media screen and (max-width: 736px) {
     #footer {
         padding: 3rem 0 1rem 0;
