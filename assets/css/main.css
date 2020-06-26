@@ -454,11 +454,47 @@ header p {
 #introduction.wrapper {
     padding-bottom: 1px;
 }
-#intro-last-p {
+#contact-intro {
     padding-bottom: 2rem;
+    font-size: 1.8rem;
     text-align: center;
 
 }
+
+#contact-intro img{
+    margin: 0rem 0 0 1rem;
+    position: relative;
+    top: 10px;
+}
+
+#contact-intro a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#contact-intro a:hover{
+    color: dodgerblue;
+}
+
+@media screen and (max-width: 736px){
+    #contact-intro{font-size: 1.6rem;}
+}
+
+@media screen and (max-width: 600px){
+    #contact-intro{font-size: 1.4rem;}
+}
+
+@media screen and (max-width: 520px){
+    .intro p{font-size: 1rem;}
+    #contact-intro p{font-size: 1.25rem;}
+}
+
+@media screen and (max-width: 480px){
+    .inner.intro h2{font-size: 1.6rem;}
+    #contact-intro p{font-size: 1.15rem;}
+}
+
+
 .inner.intro p {
     color: #5f5959;
 }
