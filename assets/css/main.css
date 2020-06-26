@@ -499,9 +499,9 @@ header p {
     #contact-intro p{font-size: 1.15rem;}
 }
 
-
 .inner.intro p {
     color: #5f5959;
+    font-size: 1.2rem; 
 }
 .inner.intro h2 {
     text-align: center;
