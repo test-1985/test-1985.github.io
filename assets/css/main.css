@@ -1106,7 +1106,11 @@ header p {
 
 .banner > article .inner nav ul{
     list-style: none;
-    
+    padding: 0;
+}
+
+.banner > article .inner nav ul li{
+    padding: 0;
 }
 
 .banner > article .inner nav a{
@@ -1224,6 +1228,12 @@ header p {
     }
     .banner > article h2 {
         font-size: 1.1rem;
+    }
+
+    .banner > article .inner nav a{
+        font-size: 0.9rem;
+        padding: 0.8rem;
+        width: 14rem;
     }
 }
 
