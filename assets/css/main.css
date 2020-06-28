@@ -1116,11 +1116,18 @@ header p {
     display: inline-block;
 }
 
-.banner > article h2 {
+.banner > article h1 {
     font-size: 7rem;
     margin-bottom: 0;
-    color: rgba(255, 255, 255, 0.788);
+    color: rgba(255, 255, 255, 0.849);
     font-weight: 300;
+}
+
+.banner > article h2{
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
 }
 
 .banner > article h3{
