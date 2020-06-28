@@ -1098,6 +1098,24 @@ header p {
 .banner > article .inner > :last-child {
     margin-bottom: 0;
 }
+
+.banner > article .inner nav{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.banner > article .inner nav ul{
+    list-style: none;
+    
+}
+
+.banner > article .inner nav a{
+    border: solid 1px white;
+    width: 15rem;
+    padding: 0.9rem 0;
+    display: inline-block;
+}
+
 .banner > article h2 {
     font-size: 7rem;
     margin-bottom: 0;
