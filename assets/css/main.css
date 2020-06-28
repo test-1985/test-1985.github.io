@@ -1171,14 +1171,18 @@ header p {
 @media screen and (max-width: 980px) {
     .banner.full {
         padding: 0;
-        min-height: 24rem;
-        height: 24rem !important;
+        min-height: 30rem;
+        height: 30rem !important;
     }
     .banner > article {
         background-attachment: scroll;
     }
-    .banner > article h2 {
+    .banner > article h1 {
         font-size: 4em;
+    }
+
+    .banner > article h2{
+        font-size: 1.3rem;
     }
 }
 @media screen and (max-width: 736px) {
@@ -1188,31 +1192,41 @@ header p {
     .banner > article p {
         margin-bottom: 1rem;
     }
-    .banner > article h2 {
+    .banner > article h1 {
         font-size: 3.5em;
     }
 }
 @media screen and (max-width: 700px) {
-    .banner > article h2 {
-        font-size: 3em;
+    .banner > article h1 {
+        font-size: 3.2em;
     }
-    .banner > article h3 {
-        font-size: 1.1rem;
+    .banner > article h2 {
+        font-size: 1.25rem;
     }
 }
 @media screen and (max-width: 600px) {
-    .banner > article h2 {
-        font-size: 2.6em;
+    .banner > article h1 {
+        font-size: 2.8em;
     }
 }
 @media screen and (max-width: 540px) {
-    .banner > article h2 {
+    .banner > article h1 {
         font-size: 2.4em;
     }
-    .banner > article h3 {
-        font-size: 1rem;
+    .banner > article h2 {
+        font-size: 1.2rem;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .banner > article h1 {
+        font-size: 2.2em;
+    }
+    .banner > article h2 {
+        font-size: 1.1rem;
+    }
+}
+
 #main {
     padding: 4rem 0 2rem 0;
 }
